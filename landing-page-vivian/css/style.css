@@ -13,12 +13,9 @@
   margin: 0;
   padding: 0;
 }
-/* Espaço entre parágrafos */
 p {
   margin-bottom: 1em;
 }
-
-/* Cor padrão dos links */
 a {
   color: var(--cor-link);
   text-decoration: none;
@@ -35,12 +32,9 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  /* Removido o padding-top exagerado, pois o header não será mais fixo */
 }
 .header-moderno {
-  /* Removido o position: fixed para o header rolar junto com a página */
-  margin-top: 100px; /* Espaço opcional para afastar do topo */
-  /* top: 100px; removido */
+  margin-top: 100px;
   left: 0;
   width: 100%;
   z-index: 100;
